@@ -1,0 +1,23 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import { AppBar,Toolbar, Button,} from '@material-ui/core';
+import bg from '../assets/bg.jpg';
+import {Link} from 'react-router-dom';
+
+const useStyles = makeStyles((theme) => ({
+   
+   
+}));
+export default function Header(){
+    const classes = useStyles();
+    return (
+        <div></div>
+      
+    );
+}
+
+
+//     "42": {
+  //       "address": "0xfecc0bd43b1626a69fd19a1786e34973728461f0",
+  //       "transactionHash": "0x6ec1ea0a7317178a28d0a395a389b4df6bfe99a4b877b6f0dd6766978a2b3849"
+  // }
